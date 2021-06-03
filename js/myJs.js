@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hello anh Đức   !',
-        text: 'Em có điều muốn noi·vs aiu',
+        title: 'Hello bạn gì đó ơi !',
+        text: 'Mình có chuyện muốn nói với bạn !!!',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì Thịnh đẹp trai";
+    var text = " Tại vì Thịnh đẹp trai vl :> ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -119,10 +119,10 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'IB em <3',
+                confirmButtonText: 'IB mình nè <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay TFT vs em  nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho em đi nàoooooo",
+                text: "Tối nay đi chơi vs mình nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho mình đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://m.me/dthinh2';
