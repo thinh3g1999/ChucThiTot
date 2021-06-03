@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hello bạn gì đó ơi !',
-        text: 'Mình có chuyện muốn nói với bạn !!!',
+        title: 'Hello cậu gì đó ơi ❤️💛💚!',
+        text: 'Thắng có chuyện muốn nói với cậu nè !!!',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì Thịnh đẹp trai vl :> ";
+    var text = " Tại vì Thắng đẹp trai vl :> ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -121,11 +121,11 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'IB mình nè <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay đi chơi vs mình nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho mình đi nàoooooo",
+                title: 'Tớ biết mà ^^ Yêu cậu 300.000😘',
+                text: "Hẹn bạn hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho mình đi nàoooooo😽😽",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://m.me/dthinh2';
+                    window.location = 'http://m.me/ice.bear.8803';
                   }
             })
         }
