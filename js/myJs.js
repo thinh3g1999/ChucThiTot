@@ -114,18 +114,18 @@ $('#yes').click(function() {
   
         confirmButtonColor: '#fe8a71',
 
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi cho anh <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'IB mình nè <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000😘',
-                text: "Hẹn bạn hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho mình đi nàoooooo😽😽",
+                title: 'Anh biết mà phải vậy chứ😘',
+                text: "Hẹn bé hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho mình đi nàoooooo😽😽",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://m.me/ice.bear.8803';
+                    window.location = 'http://m.me/dthinh2';
                   }
             })
         }
