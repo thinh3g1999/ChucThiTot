@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hello cậu gì đó ơi ❤️💛💚!',
-        text: 'Thắng có chuyện muốn nói với cậu nè !!!',
+        title: 'Hello Bé Thảo nhaaa ❤️💛💚!',
+        text: 'Anh có chuyện muốn nói với bé nè !!!',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì Thắng đẹp trai vl :> ";
+    var text = " Phải đạt điểm cao :3 ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Có gì nói với anh không haha :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -108,12 +108,12 @@ $('#yes').click(function() {
               left top
               no-repeat
             `,
-        showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+  
+       
         confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
+  
         confirmButtonColor: '#fe8a71',
-        cancelButtonColor: '#f6cd61',
+
         confirmButtonText: 'Gửi cho tớ <3'
     }).then((result) => {
         if (result.value) {
