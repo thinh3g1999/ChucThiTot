@@ -119,10 +119,10 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'IB mình nè <3',
+                confirmButtonText: 'IB anh nè <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Anh biết mà phải vậy chứ😘',
-                text: "Hẹn bé hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho mình đi nàoooooo😽😽",
+                title: 'Anh biết mà phải vậy chứ ',
+                text: "Hẹn bé hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho anh đi nàoooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://m.me/dthinh2';
